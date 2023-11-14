@@ -2,7 +2,127 @@
     --web-studio-black: #2F303A;
     --web-studio-blue: #2196F3;
     --web-studio-white: #fff;
+--title:#212121;
+--text: #757575;
+--footer:rgba(255, 255, 255, 0.60) ;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--title);
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    
+font-family: "Raleway", sans-serif;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+color:var(--web-studio-blue);
+
+}
+.header-link {
+    
+font-weight: 500;
+
+}
+.header-link:hover {
+    color:var(--web-studio-blue);
 }
 
+.section-hero{
+    background-color: #2F303A ;
+}
+.section-hero_title {
+    
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 13.6px;
+    letter-spacing: 2.64px;
+    
+    color:var(--web-studio-white);
+}
+
+.button-hero {
+    color:var(--web-studio-white);
+
+    font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.96px;
+width: 216px;
+height: 50px;
+background: #2196F3;
+}
+.features-title {
+    
+    font-weight: 700;
+    letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.features-description {
+    color: var(--text);
+    line-height: 2px;
+    letter-spacing: 0.42px;
+}
+.work-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.work-image {
+    width: 370px;
+    height: 294px;
+   
+}
+.our-team-title-our-team {
+   text-align: center;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.08px;
+}
+.our-team-title {
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0.48px;
+}
+.our-team-description {
+    color:var(--text);
+text-align: center;
+font-size: 16px;
+letter-spacing: 0.48px;
+}
+.our-team-image {
+    width: 270px;
+height: 261.204px;
+text-align: center;
+}
+.footer {
+    background-color:  #2F303A;;
+}
+.logo {
+    color: var(--web-studio-blue);
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+.footer-link {
+    color: #FFF;
+line-height: 24px; 
+letter-spacing: 0.42px;
+}
+.footer-link:hover {
+color: rgba(255, 255, 255, 0.60);
+}
 
     
