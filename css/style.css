@@ -30,10 +30,22 @@ letter-spacing: 0.78px;
 color:var(--web-studio-blue);
 
 }
+.blue-logo {
+    color:var(--web-studio-white)
+}
 .header-link {
     
 font-weight: 500;
+color:var(--web-studio-blue);
+}
+.header-link:hover {
+    color:var(--web-studio-blue);
+}
 
+.header-link {
+    
+font-weight: 500;
+color:var(--text);
 }
 .header-link:hover {
     color:var(--web-studio-blue);
