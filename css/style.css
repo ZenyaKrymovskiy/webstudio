@@ -6,6 +6,8 @@
 --text: #757575;
 --footer:rgba(255, 255, 255, 0.60) ;
 }
+
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -15,11 +17,27 @@ body {
     color: var(--title);
 
 }
+ul, h2, p, h3,  button {
+    padding: 0;
+    margin: 0;
+}
+img, button {
+display: block;
+}
 a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+}
+.header {
+    padding: 1240px 67px;
+    
 }
 .logo {
     
@@ -28,6 +46,8 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 color:var(--web-studio-blue);
+padding-top: 24px;
+padding-bottom: 24px;
 
 }
 .blue-logo {
@@ -50,6 +70,9 @@ color:var(--text);
 .header-link:hover {
     color:var(--web-studio-blue);
 }
+.section-hero {
+padding: 586px 1386px;
+}
 
 .section-hero{
     background-color: #2F303A ;
@@ -63,6 +86,8 @@ color:var(--text);
     letter-spacing: 2.64px;
     
     color:var(--web-studio-white);
+    padding-top: 200px;
+    margin-bottom: 40px;
 }
 
 .button-hero {
@@ -74,12 +99,20 @@ letter-spacing: 0.96px;
 width: 216px;
 height: 50px;
 background: #2196F3;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.features {
+    padding: 98px 1170;
+
 }
 .features-title {
     
     font-weight: 700;
     letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
+
 }
 .features-description {
     color: var(--text);
@@ -90,12 +123,22 @@ text-transform: uppercase;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
+    padding: 50px;
 }
 .work-image {
     width: 370px;
     height: 294px;
+    padding: 91px;
    
 }
+.our-team {
+    padding: 386px 1170px;
+}
+.our-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .our-team-title-our-team {
    text-align: center;
 font-size: 36px;
@@ -107,6 +150,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
+margin-bottom: 10px;
 }
 .our-team-description {
     color:var(--text);
@@ -118,23 +162,27 @@ letter-spacing: 0.48px;
     width: 270px;
 height: 261.204px;
 text-align: center;
+ margin-bottom: 30px;
 }
 .footer {
-    background-color:  #2F303A;;
+    background-color:  #2F303A;
+    padding: 252px 1600px;
 }
-.logo {
+.footer-logo {
     color: var(--web-studio-blue);
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+padding-top: 60px;
 }
 .footer-link {
     color: #FFF;
 line-height: 24px; 
 letter-spacing: 0.42px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 .footer-link:hover {
 color: rgba(255, 255, 255, 0.60);
 }
 
-    
