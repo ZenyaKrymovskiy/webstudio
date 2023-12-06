@@ -34,9 +34,11 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
     width: 1200px;
+    
 }
 .header {
-    padding: 1240px 67px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .logo {
@@ -71,7 +73,8 @@ color:var(--text);
     color:var(--web-studio-blue);
 }
 .section-hero {
-padding: 586px 1386px;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .section-hero{
@@ -103,7 +106,8 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 .features {
-    padding: 98px 1170;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 .features-title {
@@ -119,6 +123,9 @@ margin-bottom: 10px;
     line-height: 2px;
     letter-spacing: 0.42px;
 }
+.work {
+    padding-bottom: 94px;
+}
 .work-title {
     text-align: center;
     font-size: 36px;
@@ -132,12 +139,10 @@ margin-bottom: 10px;
    
 }
 .our-team {
-    padding: 386px 1170px;
-}
-.our-team{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 
 .our-team-title-our-team {
    text-align: center;
@@ -166,7 +171,8 @@ text-align: center;
 }
 .footer {
     background-color:  #2F303A;
-    padding: 252px 1600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo {
     color: var(--web-studio-blue);
