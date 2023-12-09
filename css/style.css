@@ -48,8 +48,6 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 color:var(--web-studio-blue);
-padding-top: 24px;
-padding-bottom: 24px;
 
 }
 .blue-logo {
@@ -79,6 +77,7 @@ padding-bottom: 200px;
 
 .section-hero{
     background-color: #2F303A ;
+    padding-bottom: 286px;
 }
 .section-hero_title {
     
@@ -95,6 +94,7 @@ padding-bottom: 200px;
 
 .button-hero {
     color:var(--web-studio-white);
+    margin: 0 auto;
 
     font-size: 16px;
 font-weight: 700;
@@ -124,18 +124,18 @@ margin-bottom: 10px;
     letter-spacing: 0.42px;
 }
 .work {
-    padding-bottom: 94px;
+    padding-bottom: 286px;
 }
 .work-title {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 .work-image {
     width: 370px;
     height: 294px;
-    padding: 91px;
+    
    
 }
 .our-team {
@@ -185,8 +185,6 @@ padding-top: 60px;
     color: #FFF;
 line-height: 24px; 
 letter-spacing: 0.42px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 .footer-link:hover {
 color: rgba(255, 255, 255, 0.60);
