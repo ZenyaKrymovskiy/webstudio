@@ -88,7 +88,6 @@ padding-bottom: 200px;
     letter-spacing: 2.64px;
     
     color:var(--web-studio-white);
-    padding-top: 200px;
     margin-bottom: 40px;
 }
 
@@ -107,7 +106,7 @@ padding-bottom: 10px;
 }
 .features {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 118px;
 
 }
 .features-title {
@@ -122,9 +121,10 @@ margin-bottom: 10px;
     color: var(--text);
     line-height: 2px;
     letter-spacing: 0.42px;
+    padding-bottom: 118px;
 }
 .work {
-    padding-bottom: 286px;
+    padding-bottom: 94px;
 }
 .work-title {
     text-align: center;
@@ -179,7 +179,6 @@ text-align: center;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
-padding-top: 60px;
 }
 .footer-link {
     color: #FFF;
