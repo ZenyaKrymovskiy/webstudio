@@ -17,7 +17,7 @@ body {
     color: var(--title);
 
 }
-ul, h2, p, h3,  button {
+ul, h2, p, h3,h1, button {
     padding: 0;
     margin: 0;
 }
@@ -70,14 +70,11 @@ color:var(--text);
 .header-link:hover {
     color:var(--web-studio-blue);
 }
-.section-hero {
-padding-top: 200px;
-padding-bottom: 200px;
-}
+
 
 .section-hero{
     background-color: #2F303A ;
-    padding-bottom: 286px;
+    padding: 200px 0;
 }
 .section-hero_title {
     
@@ -88,7 +85,7 @@ padding-bottom: 200px;
     letter-spacing: 2.64px;
     
     color:var(--web-studio-white);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .button-hero {
@@ -105,8 +102,8 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 .features {
-    padding-top: 5px;
-    padding-bottom: 118px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 .features-title {
@@ -121,7 +118,6 @@ margin-bottom: 10px;
     color: var(--text);
     line-height: 2px;
     letter-spacing: 0.42px;
-    padding-bottom: 118px;
 }
 .work {
     padding-bottom: 94px;
@@ -130,7 +126,7 @@ margin-bottom: 10px;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .work-image {
     width: 370px;
@@ -138,32 +134,33 @@ margin-bottom: 10px;
     
    
 }
-.our-team {
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 
-.our-team-title-our-team {
+.team-title {
    text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
 }
-.our-team-title {
+.team-list-title {
 text-align: center;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
 margin-bottom: 10px;
 }
-.our-team-description {
+.team-list-description {
     color:var(--text);
 text-align: center;
 font-size: 16px;
 letter-spacing: 0.48px;
 }
-.our-team-image {
+.team-list-image {
     width: 270px;
 height: 261.204px;
 text-align: center;
@@ -179,6 +176,7 @@ text-align: center;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+margin-bottom: 20px;
 }
 .footer-link {
     color: #FFF;
