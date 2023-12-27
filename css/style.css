@@ -72,6 +72,7 @@ color:var(--web-studio-blue);
     color:var(--web-studio-white);
 }
 .header-link {
+    color: var(--title);
     justify-content: end;
 font-weight: 500;
 color:var(--web-studio-blue);
@@ -85,7 +86,7 @@ color:var(--web-studio-blue);
 .header-link {
  font-weight: 500;
 color:var(--text);
-gap: 50px;
+
 }
 
 .header-link:hover {
@@ -102,13 +103,14 @@ gap: 50px;
 .section-hero{
     background-color: #2F303A ;
     padding: 200px 0;
+    flex-wrap: wrap;
 }
 .section-hero_title {
-    
+    font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    line-height: 13.6px;
+    line-height: 1.36;
     letter-spacing: 2.64px;
     
     color:var(--web-studio-white);
@@ -127,6 +129,8 @@ height: 50px;
 background: #2196F3;
 padding-top: 10px;
 padding-bottom: 10px;
+border-radius: 4 px;
+
 }
 .features {
     padding-top: 94px;
