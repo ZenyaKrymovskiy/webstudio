@@ -98,13 +98,12 @@ letter-spacing: 0.28px;
 }
 .filters{
     display: flex;
-    gap: 50px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
 }
 .button-filter {
-    
-    
+    background-color:  #F5F4FA;
     color:var(--title);
 text-align: center;
 font-family: Roboto;
@@ -132,6 +131,9 @@ padding: 6px 22px;
 .our-portfolio_list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid #EEE;
+    
     
     
     
@@ -139,6 +141,7 @@ padding: 6px 22px;
 .our-portfolio-title {
     color:var(--title);
 font-style: normal;
+font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
