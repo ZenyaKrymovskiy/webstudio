@@ -124,7 +124,8 @@ color: var(--text);
 .button-hero {
     color:var(--web-studio-white);
     margin: 0 auto;
-
+        border: none;
+        border-radius: 4px;
     font-size: 16px;
 font-weight: 700;
 letter-spacing: 0.96px;
@@ -133,6 +134,7 @@ height: 50px;
 background: #2196F3;
 padding-top: 10px;
 padding-bottom: 10px;
+
 
 
 }
@@ -241,6 +243,7 @@ height: 261px;
     color: var(--web-studio-white);
 }
 .footer-logo {
+    display: block;
     color: var(--web-studio-blue);
 font-size: 26px;
 font-weight: 700;
