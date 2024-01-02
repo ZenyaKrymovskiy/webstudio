@@ -231,6 +231,7 @@ letter-spacing: 0.48px;
     width: 270px;
 height: 261px;
  margin-bottom: 30px;
+ flex-basis: calc((100% - 60px)/2);
  
 }
 .footer {
