@@ -128,6 +128,7 @@ border: none;
     padding-top: 94px;
     padding-bottom: 94px;
     
+    
     justify-content: center;
 }
 .our-portfolio_list {
@@ -145,7 +146,7 @@ line-height: 2;
 letter-spacing: 1.08px;
 margin-top: 20px;
 margin-bottom: 4px;
-margin-left: 24px;
+padding-left: 24px;
 }
 .our-portfolio-description {
     color:var(--text);
@@ -153,12 +154,13 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.9 ;
 margin-bottom: 20px;
-margin-left: 24px;
+padding-left: 24px;
 letter-spacing: 0.48px;
 }
 .our-portfolio-item {
     width: 370px;
     border: 1px solid #EEE;
+    flex-basis: calc((100% - 60px)/3);
 }
 .our-portfolio-img {
     
