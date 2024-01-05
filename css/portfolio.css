@@ -134,7 +134,7 @@ border: none;
 .our-portfolio_list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    row-gap: 30px;
     
 }
 .our-portfolio-title {
@@ -153,14 +153,15 @@ padding-left: 24px;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9 ;
-margin-bottom: 20px;
+
 padding-left: 24px;
 letter-spacing: 0.48px;
 }
 .our-portfolio-item {
-    width: 370px;
+    
     border: 1px solid #EEE;
     flex-basis: calc((100% - 60px)/3);
+    padding-bottom: 20px;
 }
 .our-portfolio-img {
     
