@@ -116,7 +116,7 @@ line-height: 1.7;
 letter-spacing: 0.48px;
 padding: 6px 22px;
 border: none;
- 
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .button-filter:hover {
  background-color:var(--portfolio-blue);
@@ -135,9 +135,10 @@ border: none;
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
+    justify-content: center;
     
 }
-.our-portfolio-title {
+.our-portfolio-list-title {
     color:var(--title);
 font-style: normal;
 font-size: 18px;
@@ -148,7 +149,7 @@ margin-top: 20px;
 margin-bottom: 4px;
 padding-left: 24px;
 }
-.our-portfolio-description {
+.our-portfolio-list-description {
     color:var(--text);
 font-size: 16px;
 font-weight: 400;
@@ -157,13 +158,16 @@ line-height: 1.9 ;
 padding-left: 24px;
 letter-spacing: 0.48px;
 }
-.our-portfolio-item {
+.our-portfolio-list-item {
     
     border: 1px solid #EEE;
     flex-basis: calc((100% - 60px)/3);
     padding-bottom: 20px;
+    border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.our-portfolio-img {
+.our-portfolio-list_img {
     
     gap: 30px;
 }

@@ -134,6 +134,7 @@ height: 50px;
 background: #2196F3;
 padding-top: 10px;
 padding-bottom: 10px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 
 
@@ -141,8 +142,30 @@ padding-bottom: 10px;
 .features {
     padding-top: 94px;
     padding-bottom: 94px;
-    
+}
+.features-list-item::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--team);
+    border-radius: 4px;
+    /* margin-bottom: 3opx; */
 
+}
+.features-list-item:nth-child(1)::before{
+    background-image: url(../images/antenna1.svg);
+}
+.features-list-item:nth-child(2)::before{
+    background-image: url(../images/clock1.svg);
+}
+.features-list-item:nth-child(3)::before{
+    background-image: url(../images/diagram1.svg);
+}
+.features-list-item:nth-child(4)::before{
+    background-image: url(../images/astronaut1.svg);
 }
 .features-list {
  
@@ -150,7 +173,7 @@ padding-bottom: 10px;
  gap: 30px;
  
 }
-.features-title {
+.features-list-title {
     
     color: var(--title);
     font-weight: 700;
@@ -158,9 +181,10 @@ padding-bottom: 10px;
     letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-bottom: 10px;
+margin-top: 30px;
 
 }
-.features-description {
+.features-list-description {
     
     color: var(--text);
 
@@ -211,8 +235,10 @@ letter-spacing: 1.08;
 margin-bottom: 50px;
 }
 .team-list-item {
+    content: "";
     padding-bottom: 30px;
     background-color: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-list-title {
 text-align: center;
@@ -227,6 +253,7 @@ text-align: center;
 font-size: 16px;
 letter-spacing: 0.48px;
 }
+
 .team-list-image {
     width: 270px;
 height: 261px;
