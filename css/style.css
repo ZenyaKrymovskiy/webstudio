@@ -108,6 +108,10 @@ color: var(--text);
     background-color: #2F303A ;
     padding: 200px 0;
     flex-wrap: wrap;
+    background-image: linear-gradient( to right , rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/img10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .section-hero_title {
     font-size: 44px;
