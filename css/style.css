@@ -313,4 +313,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--web-studio-white);
 }
+.social-network-list{
+    display: flex;
+    gap: 20px;
+}
 
