@@ -7,6 +7,7 @@
 --footer:rgba(255, 255, 255, 0.60) ;
 --black:#000;
 --team: #F5F4FA;
+--svg:#AFB1B8;
 }
 
 
@@ -256,15 +257,77 @@ margin-bottom: 10px;
 text-align: center;
 font-size: 16px;
 letter-spacing: 0.48px;
+margin-bottom: 10px;
 }
 
 .team-list-image {
     width: 270px;
 height: 261px;
  margin-bottom: 30px;
- 
+
  
 }
+.team-list__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.team-list__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+}
+.team-list__link:hover{
+    background-color: var(--web-studio-blue);
+    border-radius: 50%;
+}
+.team-list__link:hover .team__svg{
+    fill: var(--web-studio-white);
+}
+.team__svg{
+    width: 28px;
+    height: 28px;
+    fill: var(--svg);
+}
+.clients-title{
+    color: #212121;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.08px;
+margin-bottom: 49px;
+padding-top: 89px;
+}
+.clients{
+    padding-bottom: 88px;
+  
+}
+.clients-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.clients-list-link:hover .clients-svg{
+
+      color: var(--web-studio-black);
+}
+.clients-list-link{
+    fill: var(--black);
+    display: flex;
+    border: 5px solid #AFB1B8;
+}
+
+.clients-svg{
+    fill: #AFB1B8;
+
+}
+
 .footer {
     background-color:  #2F303A;
     padding-top: 60px;
@@ -312,9 +375,28 @@ font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--web-studio-white);
+margin-bottom: 23px;
 }
-.social-network-list{
+.footer-list{
     display: flex;
-    gap: 20px;
+    
 }
-
+.footer-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+.foter-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-list-link:hover{
+    background-color: var(--web-studio-blue);
+}
+.footer-list-link:hover .footer-svg{
+    color: var(--web-studio-white);
+}
