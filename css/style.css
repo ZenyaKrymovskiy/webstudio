@@ -240,7 +240,6 @@ letter-spacing: 1.08;
 margin-bottom: 50px;
 }
 .team-list-item {
-    content: "";
     padding-bottom: 30px;
     background-color: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -267,10 +266,13 @@ height: 261px;
 
  
 }
-.team-list__item{
+.team__list{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+}
+.team-list__item{
     gap: 18px;
 }
 .team-list__link{
@@ -289,8 +291,8 @@ height: 261px;
     fill: var(--web-studio-white);
 }
 .team__svg{
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     fill: var(--svg);
 }
 .clients-title{
@@ -313,18 +315,30 @@ padding-top: 89px;
     justify-content: center;
     align-items: center;
 }
-.clients-list-link:hover .clients-svg{
+.clients-list-item{
+    width: 170px;
+    border: 1px solid #AFB1B8;
+    padding: 15px 30px;
+    border-radius: 7px;
+    
+}
+.clients-list-item:hover{
+    border-color:var(--web-studio-blue);
+}
+.clients-list-item:hover .clients-svg{
 
-      color: var(--web-studio-black);
+      fill: var(--web-studio-blue);
 }
 .clients-list-link{
     fill: var(--black);
     display: flex;
-    border: 5px solid #AFB1B8;
+    
 }
 
 .clients-svg{
     fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
 
 }
 
@@ -377,15 +391,18 @@ text-transform: uppercase;
 color: var(--web-studio-white);
 margin-bottom: 23px;
 }
-.footer-list{
+.footer .footer-center{
     display: flex;
-    
+    align-items: center;
 }
-.footer-list-link{
+.footer-list{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 44px;
+}
+.footer-list-link{
+
+        width: 44px;
     height: 44px;
 }
 .foter-list-item{
@@ -394,8 +411,14 @@ margin-bottom: 23px;
     align-items: center;
     gap: 10px;
 }
+.footer-svg{
+    width: 28px;
+    height: 28px;
+    fill: var(--svg);
+}
 .footer-list-link:hover{
     background-color: var(--web-studio-blue);
+    border-radius: 50%;
 }
 .footer-list-link:hover .footer-svg{
     color: var(--web-studio-white);
