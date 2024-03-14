@@ -212,3 +212,30 @@ letter-spacing: 0.42px;
 .footer-link:hover {
      color: rgba(255, 255, 255, 0.60);
 }
+.footer .container{
+    display: flex;
+}
+.footer-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+   
+}
+.footer-svg{
+    
+    width: 20px;
+    height: 20px;
+    fill: var(--web-studio-white);
+
+}
+.footer-list-item:hover{
+    background-color: var(--web-studio-blue);
+    border-radius: 50%;
+}
+.footer-list-link:hover .footer-svg{
+    color: var(--web-studio-white);
+}
