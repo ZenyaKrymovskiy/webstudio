@@ -49,6 +49,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 .header-list {
@@ -88,10 +89,12 @@ font-weight: 500;
 
 .header-li-con{
  font-weight: 500;
-
+display: flex;
+align-items: center;
 color: var(--text);
 
 }
+
 
 .header-link:hover {
     color:var(--web-studio-blue);
@@ -99,11 +102,29 @@ color: var(--text);
 .header-contacts {
     display: flex;
     gap: 50px;
-    
+  width: 370px;  
 }
-
+.header-list{
+    display: flex;
+  
+    align-items: center;
+    gap: 30px;
+}
+.header-list-item{
+    max-width: 200px;
+}
+.header__con_svg{
+    fill: var(--text);
+    margin-right: 5px;
+}
 .main.container {
     display: flex;
+}
+.header-li-con:hover{
+    color: var(--web-studio-blue);
+}
+.header-li-con:hover .header__con_svg{
+      fill: var(--web-studio-blue);
 }
 .section-hero{
     background-color: #2F303A ;
@@ -270,15 +291,10 @@ height: 261px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-}
-.team-list__item{
     gap: 18px;
 }
+
 .team-list__link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 44px;
     height: 44px;
 
@@ -348,6 +364,13 @@ padding-top: 89px;
     padding-bottom: 60px;
     
 }
+.footer-contacts{
+    margin-right: 92px;
+}
+.footer .container{
+    display: flex;
+    
+}
 .white-footer{
     color: var(--web-studio-white);
 }
@@ -358,6 +381,9 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 margin-bottom: 20px;
+}
+.footer-center{
+    padding-top: 10px;
 }
 .address {
     display: flex;
@@ -391,32 +417,32 @@ text-transform: uppercase;
 color: var(--web-studio-white);
 margin-bottom: 23px;
 }
-.footer .footer-center{
-    display: flex;
-    align-items: center;
-}
-.footer-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-list-link{
 
-        width: 44px;
-    height: 44px;
-}
-.foter-list-item{
+.footer-list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.footer-svg{
-    width: 28px;
-    height: 28px;
-    fill: var(--svg);
+
+.footer-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+   
 }
-.footer-list-link:hover{
+.footer-svg{
+    
+    width: 20px;
+    height: 20px;
+    fill: var(--web-studio-white);
+
+}
+.footer-list-item:hover{
     background-color: var(--web-studio-blue);
     border-radius: 50%;
 }
