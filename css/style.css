@@ -115,7 +115,7 @@ color: var(--text);
 }
 .header__con_svg{
     fill: var(--text);
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .main.container {
     display: flex;
@@ -295,9 +295,12 @@ height: 261px;
 }
 
 .team-list__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
-
+     
 }
 .team-list__link:hover{
     background-color: var(--web-studio-blue);
@@ -305,8 +308,12 @@ height: 261px;
 }
 .team-list__link:hover .team__svg{
     fill: var(--web-studio-white);
+   
 }
 .team__svg{
+    display: flex;
+    justify-content: center;
+    
     width: 20px;
     height: 20px;
     fill: var(--svg);
