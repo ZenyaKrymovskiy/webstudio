@@ -236,10 +236,20 @@ margin-top: 30px;
 .work-image {
     width: 370px;
     height: 294px;
-    gap: 30px;
+    gap: 20px;
+    
     
     
    
+}
+.label{
+    background-color: rgba(47, 48, 58, 0.8);
+    height: 49px;
+    color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .team {
     padding-top: 94px;
