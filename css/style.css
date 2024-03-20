@@ -116,6 +116,7 @@ color: var(--text);
 .header__con_svg{
     fill: var(--text);
     margin-right: 10px;
+    width: 16;
 }
 .main.container {
     display: flex;
@@ -243,12 +244,13 @@ margin-top: 30px;
    
 }
 .label{
-    background-color: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.5);
     height: 49px;
     color: #F5F4FA;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 29px;
 
 }
 .team {
@@ -457,6 +459,9 @@ margin-bottom: 23px;
     height: 20px;
     fill: var(--web-studio-white);
 
+}
+.address{
+    font-style: normal;
 }
 .footer-list-item:hover{
     background-color: var(--web-studio-blue);
