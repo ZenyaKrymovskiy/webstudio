@@ -20,12 +20,15 @@ body {
     color: var(--title);
 
 }
-ul, h2, p, h3,h1, button {
+ul, h2, p, h3,h1, button, figure {
     padding: 0;
     margin: 0;
 }
 img, button {
 display: block;
+}
+button{
+    border: none;
 }
 a {
     text-decoration: none;
@@ -92,6 +95,7 @@ font-weight: 500;
 display: flex;
 align-items: center;
 color: var(--text);
+font-size: 14px;
 
 }
 
@@ -116,7 +120,7 @@ color: var(--text);
 .header__con_svg{
     fill: var(--text);
     margin-right: 10px;
-    width: 16;
+    width: 16px;
 }
 .main.container {
     display: flex;
@@ -237,16 +241,22 @@ margin-top: 30px;
 .work-image {
     width: 370px;
     height: 294px;
-    gap: 20px;
+    
     
     
     
    
 }
+.thumb{
+    position: relative;
+}
 .label{
     background-color: rgba(47, 48, 58, 0.5);
     height: 49px;
     color: #F5F4FA;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,7 +313,7 @@ height: 261px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 10px;
 }
 
 .team-list__link{
