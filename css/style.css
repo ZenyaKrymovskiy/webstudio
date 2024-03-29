@@ -185,7 +185,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     
 }
 .modal{
-    display: none;
+ 
     position: absolute;
     /* top: 32%;
     left: 35%; */
@@ -202,6 +202,18 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     text-align: center;
     color: var(--title) ;
      margin-bottom: 12px;
+}
+.div-modal-btn-close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--web-studio-white);
+    cursor: pointer;
+    border: 1px solid #00000010;
+
 }
 .modal-list{
     display: flex;
@@ -226,6 +238,9 @@ margin-top: 4px;
 outline: none;
 cursor: pointer;
 }
+.modal-list-input:hover{
+    border-color: var(--web-studio-blue);
+    }
 .modal-svg{
     width: 15px;
     height: 15px;
@@ -233,9 +248,7 @@ cursor: pointer;
     left: 12px;
     top: 31px;
 }
-.modal-list-input:hover{
-border-color: var(--web-studio-blue);
-}
+
 .modal-list-input:hover + .modal-svg{
     fill: var(--web-studio-blue);
 }
@@ -256,6 +269,16 @@ border-color: var(--web-studio-blue);
     height: 15px;
     
 }
+.div-modal-text{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 40px;
+    }
 .div-modal-check:checked::after{
     display: flex;
     justify-content: center;
@@ -263,16 +286,7 @@ border-color: var(--web-studio-blue);
     background-color: var(--web-studio-blue);
     border: 3px solid var(--web-studio-blue);
 }
-.div-modal-text{
 
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--text);
-text-align: center;
-margin-bottom: 40px;
-}
 .div-modal-link{
     color: var(--web-studio-blue);
     text-decoration: underline;
@@ -295,18 +309,7 @@ border: none;
     margin: 0 auto;
     color: var(--web-studio-white);
 }
-.div-modal-btn-close{
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: var(--web-studio-white);
-    cursor: pointer;
-    border: 1px solid #00000010;
 
-}
 .div-modal-svg-close{
     fill: var(--black);
     width: 11px;
@@ -648,10 +651,12 @@ margin-bottom: 23px;
     border-radius: 4px;
     width: 258px;
     height: 50px;
-   margin-right: 12px;
+  
+    margin-right: 12px;
     padding: 13px 15px;
     font-weight: 400;
     font-size: 16px;
+    
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
