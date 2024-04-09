@@ -77,18 +77,40 @@ color:var(--web-studio-blue);
 .blue-logo {
     color:var(--web-studio-white);
 }
-.header-link {
+.header-list-link {
     color:var(--web-studio-blue);
     color:var(--title);
     justify-content: end;
 font-weight: 500;
-
+position: relative;
 
 
 }
-.header-link:hover {
+.header-list-link:hover {
     color:var(--web-studio-blue);
+
+   
+   
 }
+.header-list-link::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    border-bottom: 6px solid var(--web-studio-blue)  ;
+    
+    height: 2px;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 45px;
+    
+}
+.header-list-link:hover::after{
+ width: 100%;
+ 
+}
+
+
 
 .header-li-con{
  font-weight: 500;
@@ -98,7 +120,8 @@ color: var(--text);
 font-size: 14px;
 
 }
-
+.header-list-item{
+}
 
 .header-link:hover {
     color:var(--web-studio-blue);
@@ -108,13 +131,13 @@ font-size: 14px;
     gap: 50px;
   width: 370px;  
 }
-.header-list{
+.contacts-list{
     display: flex;
   
     align-items: center;
     gap: 30px;
 }
-.header-list-item{
+.contacts-list-item{
     max-width: 200px;
 }
 .header__con_svg{
@@ -170,7 +193,12 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 
 }
-.backdrop{
+/* .backdrop .is-hidden{
+    
+    opacity: 1;
+    pointer-events: none;
+} */
+.backdrop  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,6 +209,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     top: 0;
     left: 0;
     z-index: 9;
+    
     
 }
 .modal{
@@ -313,11 +342,13 @@ border: none;
     fill: var(--black);
     width: 11px;
     height: 11px;
+    
 }
 .div-modal-btn-close:hover .div-modal-svg-close{
     fill: var(--web-studio-blue);
 }
 .is-hidden{
+    
     opacity: 0;
     pointer-events: none;
 }

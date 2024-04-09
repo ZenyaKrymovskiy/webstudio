@@ -24,30 +24,30 @@
         <a href="./index.html" class="logo">Web<span class="black-logo" >Studio</span></a>
         <nav class="navigation">
           <ul class="header-list">
-            <li class="header-item">
-              <a href="#" class="header-link">Студія</a>
+            <li class="header-list-item">
+              <a href="#" class="header-list-link">Студія</a>
             </li>
-            <li class="header-item">
-              <a href="./pages/portfolio.html" class="header-link">Портфоліо</a>
+            <li class="header-list-item">
+              <a href="./pages/portfolio.html" class="header-list-link">Портфоліо</a>
             </li>
-            <li class="header-item">
-              <a href="#" class="header-link">Контакти</a>
+            <li class="header-list-item">
+              <a href="#" class="header-list-link">Контакти</a>
             </li>
           </ul>
         </nav>
 <div class="header-contacts">
-    <ul class="header-list">
-        <li class="header-list-item">
+    <ul class="contacts-list">
+        <li class="contacts-list-item">
           <a href="mailto:info@devstudio.com" class="header-li-con">
              <svg  height="12"  class="header__con_svg">
           <use href="./images/icons/symbol-defs.svg#icon-vector5"></use>
         </svg> info@devstudio.com
       </a>
       </li>
-        <li class="header-list-item">
+        <li class="contacts-list-item">
           <a href="tel:+380961111111" class="header-li-con">  
             
-            <svg  widht="10" height="12" class="header__con_svg">
+            <svg  width="10" height="12" class="header__con_svg">
               <use href="./images/icons/symbol-defs.svg#icon-vector4"></use>
             </svg>
             +38 096 111 11 11
@@ -63,12 +63,12 @@
       <section class="section-hero">
         <div class="container">
           <h1 class="section-hero_title">
-            Ефективні рішення для <br>вашого бізнесу</br>
+            Ефективні рішення для <br>вашого бізнесу
           </h1>
           <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
-          <div class="backdrop"   data-modal >
-            <form class="modal">
-              <button class="div-modal-btn-close" data-modal-close>
+          <div class="backdrop is-hidden"   >
+            <form class="modal" data-modal>
+              <button class="div-modal-btn-close" data-modal-close >
                 <svg class="div-modal-svg-close">
                   <use href="./images/icons/symbol-defs.svg#icon-close"></use>
                 </svg>
@@ -76,15 +76,15 @@
               <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
               <ul class="modal-list">
                 <li class="modal-list-item">
-                  <label for="name" class="modal-list-label">Ім'я
-                    <input type="name" class="modal-list-input">
+                  <label  id="name" class="modal-list-label">Ім'я
+                    <input type="text" class="modal-list-input">
                     <svg class="modal-svg">
                       <use href="./images/icons/symbol-defs.svg#icon-name"></use>
                     </svg>
                   </label>
                   </li>
                 <li class="modal-list-item">
-                  <label for="tel" class="modal-list-label">Телефон
+                  <label  id="tel" class="modal-list-label">Телефон
                     <input type="tel" class="modal-list-input"> 
                     <svg class="modal-svg">
                       <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
@@ -92,7 +92,7 @@
                   </label>
                    </li>
                 <li class="modal-list-item">
-                  <label for="mail" class="modal-list-label">Пошта
+                  <label  id="email" class="modal-list-label">Пошта
                     <input type="email" class="modal-list-input" >
                     <svg class="modal-svg">
                       <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
@@ -100,8 +100,8 @@
                   </label>
                   </li>
                 <li class="modal-list-item">
-                  <label for="com" class="modal-list-label">Коментар
-                 <textarea name="text" id="comment"  placeholder="Введіть текст" class="modal-textarea"></textarea>
+                  <label  class="modal-list-label">Коментар
+                 <textarea  id="comment"  placeholder="Введіть текст" class="modal-textarea"></textarea>
                 </label>
                 </li>
               </ul>
@@ -351,7 +351,7 @@
         <ul class="clients-list">
           <li class="clients-list-item">
             <a href="" class="clients-list-link">
-              <svg widht="10" height="100" class="clients-svg">
+              <svg width="10" height="100" class="clients-svg">
                 <use href="./images/icons/symbol-defs.svg#icon-clients1"></use>
               </svg>
             </a>
