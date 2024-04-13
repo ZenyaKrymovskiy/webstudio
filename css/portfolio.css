@@ -218,8 +218,8 @@ background: #FFF;
 
 }
 .our-portfolio-list-item:hover .portfolio-overlay{
-    transform:  translateY(0);
-    opacity: 1;
+    transform:  translateX(100);
+    opacity: 0;
 }
 .portfolio-overlay p {
     font-weight: 400;
@@ -239,8 +239,6 @@ height: 100%;
 transform: translateY(100%);
 transition: transform 1s ease;
 background-color: rgba(33, 150, 243, 0.9);
-width: 370px;
-height: 294px;
 
 }
 .thumb{
@@ -260,6 +258,7 @@ height: 294px;
     padding-top: 64px;
     padding-bottom: 67px;
     display: flex;
+    
     
 }
 .footer-logo {
@@ -310,6 +309,7 @@ letter-spacing: 0.42px;
 }
 .footer .container{
     display: flex;
+    
 }
 .footer-list-item{
     display: flex;
@@ -336,8 +336,19 @@ letter-spacing: 0.42px;
     color: var(--portfolio-white);
 }
 .footer-center{
+    padding-top: 7px;
+    display: block;
     margin-right: 92px;
-    margin-top: 20px;
+    
+}
+.social-network-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-studio-white);
+    margin-bottom: 23px;
 }
 
 .footer-right-form{
@@ -345,7 +356,7 @@ letter-spacing: 0.42px;
   align-items: flex-end;
 }
 .footer-right-title{
-    
+    padding-top: 10px;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -387,6 +398,8 @@ letter-spacing: 0.42px;
     
 }
 .footer-right-svg{
+    display: flex;
+    justify-content: center;
     width: 21px;
     height: 21px;
     fill: var(--portfolio-white);
