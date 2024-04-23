@@ -17,7 +17,7 @@ body {
     line-height: 1.7;
     font-style: normal;
 }
-ul, h2, p, button {
+ul, h2, p, h3, button {
     padding: 0;
     margin: 0;
 
@@ -40,10 +40,9 @@ ul {
     width: 1200px;
 }
 .header {
-    
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px, solid;
+    border-bottom: 1px solid var(--text);
     
     
 }
@@ -56,7 +55,7 @@ ul {
 .header-list {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
    }
    
@@ -66,7 +65,7 @@ font-weight: 500;
 color:var(--web-studio-blue);
 position: relative;
 
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .contacts {
@@ -295,7 +294,7 @@ font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.42px;
 margin-right: 92px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact {
     color: rgba(255, 255, 255, 0.60);
@@ -337,6 +336,11 @@ letter-spacing: 0.42px;
     height: 20px;
     fill: var(--portfolio-white);
 
+}
+.footer-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-list-item:hover{
     background-color: var(--portfolio-blue);
@@ -387,7 +391,6 @@ letter-spacing: 0.42px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: rgba(33, 150, 243, 0);
 }
@@ -405,7 +408,7 @@ letter-spacing: 0.42px;
     color: var(--portfolio-white);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    
+    gap: 10px;
     
     
 }
