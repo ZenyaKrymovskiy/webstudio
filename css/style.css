@@ -83,7 +83,6 @@ color:var(--web-studio-blue);
     justify-content: end;
 font-weight: 500;
 position: relative;
-
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list-link:hover {
@@ -97,17 +96,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     top: 42px;
     left:0;
-    border-bottom: 6px solid var(--web-studio-blue)  ;
+    border-bottom: 6px solid var(--web-studio-blue);
     border-radius: 4px;
     height: 2px;
     width: 0;
-    transition: all 0.3s ease-in-out;
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
 .header-list-link:hover::after{
  width: 100%;
- transition: widht 250ms cubic-bezier(0.4, 0, 0.2, 1),
  
 }
 
@@ -119,10 +117,8 @@ display: flex;
 align-items: center;
 color: var(--text);
 font-size: 14px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.header-list-item{
 }
 
 .header-link:hover {
@@ -244,7 +240,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: var(--web-studio-white);
     cursor: pointer;
     border: 1px solid #00000010;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .modal-list{
@@ -269,7 +265,7 @@ padding: 12px 20px 12px 42px;
 margin-top: 4px;
 outline: none;
 cursor: pointer;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-list-input:hover{
     border-color: var(--web-studio-blue);
@@ -331,6 +327,7 @@ border: none;
     display: block;
     
     border-radius: 4px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: var(--web-studio-blue);
    
@@ -473,6 +470,7 @@ margin-bottom: 50px;
 .team-list-item {
     padding-bottom: 30px;
     background-color: #FFF;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-list-title {
@@ -510,7 +508,7 @@ height: 261px;
     align-items: center;
     width: 44px;
     height: 44px;
-    transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
 }
 .team-list__link:hover{
@@ -554,7 +552,7 @@ padding-top: 89px;
     border: 1px solid #AFB1B8;
     padding: 15px 30px;
     border-radius: 7px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill   250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill   250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .clients-list-item:hover{
