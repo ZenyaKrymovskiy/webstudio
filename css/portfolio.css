@@ -45,6 +45,7 @@ ul {
     border-bottom: 1px solid var(--text);
     
     
+    
 }
 .header .container {
     display: flex;
@@ -169,13 +170,31 @@ letter-spacing: 0.48px;
 padding: 6px 22px;
 border-radius: 4px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+animation-name: juup;
+animation-duration: 1s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+animation-fill-mode: both;
+animation: jump 5.5s ease infinite alternate;
 }
 .button-filter:hover {
  background-color:var(--portfolio-blue);
-
+ animation: juup 1s ease infinite;
  color: var(--button-bg);
  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
+
+}
+@keyframes juup{
+ 
+   0%{
+    transform: translate(0);
+   }
+   100%{
+    transform: translateY(-30px);
+   }
 }
 .our-portfolio {
     padding-top: 94px;
